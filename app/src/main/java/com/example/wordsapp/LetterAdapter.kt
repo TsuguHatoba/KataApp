@@ -35,7 +35,6 @@ class LetterAdapter :
         layout.accessibilityDelegate = Accessibility
     }
 
-
     override fun onBindViewHolder(holder: LetterViewHolder, position: Int) {
         val item = list.get(position)
         holder.button.text = item.toString()
